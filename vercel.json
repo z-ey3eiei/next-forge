@@ -9,49 +9,14 @@
       "root": "apps/app",
       "framework": "nextjs"
     },
-    "email": {
-      "root": "apps/email",
-      "framework": "nextjs"
-    },
-    "storybook": {
-      "root": "apps/storybook",
-      "framework": "nextjs"
-    },
     "web": {
       "root": "apps/web",
       "framework": "nextjs"
     },
     "docs": {
       "root": "docs",
-      "framework": "nextjs"
-    },
-    "analytics": {
-      "root": "packages/analytics",
-      "runtime": "node"
-    },
-    "auth": {
-      "root": "packages/auth",
-      "runtime": "node"
-    },
-    "cms": {
-      "root": "packages/cms",
-      "framework": "nextjs"
-    },
-    "internationalization": {
-      "root": "packages/internationalization",
-      "framework": "nextjs"
-    },
-    "next-config": {
-      "root": "packages/next-config",
-      "framework": "nextjs"
-    },
-    "observability": {
-      "root": "packages/observability",
-      "runtime": "node"
-    },
-    "seo": {
-      "root": "packages/seo",
-      "framework": "nextjs"
+      "framework": "nextjs",
+      "buildCommand": "bun run build"
     }
   },
   "rewrites": [
