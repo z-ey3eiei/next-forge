@@ -15,7 +15,8 @@
     },
     "docs": {
       "root": "docs",
-      "framework": "nextjs"
+      "framework": "nextjs",
+      "buildCommand": "bun run build"
     }
   },
   "rewrites": [
